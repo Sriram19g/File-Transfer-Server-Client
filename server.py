@@ -7,7 +7,7 @@ PORT=8888
 ADDR=(IP,PORT)
 FORMAT="utf-8"
 SIZE=1024
-SERVER_DATA_PATH="/home/sriram/bhp/server_data"
+SERVER_DATA_PATH="server_data_path"
 
 def handle_client(con,addr):
     print(f"[NEW CONNECTION] {addr} connected.")
