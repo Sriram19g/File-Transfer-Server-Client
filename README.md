@@ -32,7 +32,7 @@ File-transfer-server-client/
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/File-transfer-server-client.git
+   git clone https://github.com/Sriram19g/File-transfer-server-client.git
    cd File-transfer-server-client
    ```
 
