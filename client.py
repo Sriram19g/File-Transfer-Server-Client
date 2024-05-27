@@ -10,7 +10,7 @@ Server=f"SERVER : {ADDR}"
 
 
 def main():
-    CLIENT_DATA_PATH="/home/sriram/bhp/client_data"
+    CLIENT_DATA_PATH="client_data_path"
     client=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
     client.connect(ADDR)
     details=client.recv(SIZE).decode(FORMAT)
